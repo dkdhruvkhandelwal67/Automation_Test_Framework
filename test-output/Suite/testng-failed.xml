@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="automation.testexeution.ui.Test_Page_02">
+        <methods>
+          <include name="setbrowser"/>
+          <include name="clicknewlinktest"/>
+          <include name="presenceofallelementstest"/>
+        </methods>
+      </class> <!-- automation.testexeution.ui.Test_Page_02 -->
+      <class name="automation.testexeution.ui.Test_Page_01">
+        <methods>
+          <include name="setbrowser"/>
+          <include name="searchtest"/>
+          <include name="searchbuttontest"/>
+          <include name="opentheurl"/>
+        </methods>
+      </class> <!-- automation.testexeution.ui.Test_Page_01 -->
+      <class name="automation.testexeution.ui.Test_Page_03">
+        <methods>
+          <include name="setbrowser"/>
+          <include name="closewindowtest"/>
+          <include name="zoominouttest"/>
+        </methods>
+      </class> <!-- automation.testexeution.ui.Test_Page_03 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="automation.testexeution.ui.Test_Page_02">
+        <methods>
+          <include name="connect_drivers"/>
+          <include name="setbrowser"/>
+          <include name="presenceofallelementstest"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- automation.testexeution.ui.Test_Page_02 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

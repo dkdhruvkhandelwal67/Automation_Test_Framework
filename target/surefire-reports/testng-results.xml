@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="13" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17804" started-at="2020-01-27T00:07:56Z" finished-at="2020-01-27T00:08:14Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17804" started-at="2020-01-27T00:07:56Z" finished-at="2020-01-27T00:08:14Z">
+      <class name="automation.common.Base">
+        <test-method status="PASS" signature="setbrowser(java.lang.String)[pri:0, instance:automation.common.Base@3f0ee7cb]" name="setbrowser" is-config="true" duration-ms="7039" started-at="2020-01-27T05:37:56Z" description="Setting up driver for test" finished-at="2020-01-27T05:38:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setbrowser -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:automation.common.Base@3f0ee7cb]" name="closebrowser" is-config="true" duration-ms="2078" started-at="2020-01-27T05:38:12Z" description="Closing browser" finished-at="2020-01-27T05:38:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- automation.common.Base -->
+      <class name="automation.testexeution.ui.Test_Page_03">
+        <test-method status="PASS" signature="connect_drivers()[pri:0, instance:automation.testexeution.ui.Test_Page_03@7dc36524]" name="connect_drivers" is-config="true" duration-ms="1" started-at="2020-01-27T05:38:11Z" finished-at="2020-01-27T05:38:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connect_drivers -->
+        <test-method status="PASS" signature="closewindowtest()[pri:0, instance:automation.testexeution.ui.Test_Page_03@7dc36524]" name="closewindowtest" duration-ms="138" started-at="2020-01-27T05:38:11Z" finished-at="2020-01-27T05:38:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindowtest -->
+        <test-method status="PASS" signature="zoominouttest()[pri:0, instance:automation.testexeution.ui.Test_Page_03@7dc36524]" name="zoominouttest" duration-ms="552" started-at="2020-01-27T05:38:12Z" finished-at="2020-01-27T05:38:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zoominouttest -->
+      </class> <!-- automation.testexeution.ui.Test_Page_03 -->
+      <class name="automation.testexeution.ui.Test_Page_01">
+        <test-method status="PASS" signature="connect_drivers()[pri:0, instance:automation.testexeution.ui.Test_Page_01@75bd9247]" name="connect_drivers" is-config="true" duration-ms="37" started-at="2020-01-27T05:38:03Z" finished-at="2020-01-27T05:38:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connect_drivers -->
+        <test-method status="PASS" signature="opentheurl()[pri:0, instance:automation.testexeution.ui.Test_Page_01@75bd9247]" name="opentheurl" duration-ms="842" started-at="2020-01-27T05:38:04Z" finished-at="2020-01-27T05:38:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opentheurl -->
+        <test-method status="PASS" signature="searchbuttontest()[pri:0, instance:automation.testexeution.ui.Test_Page_01@75bd9247]" name="searchbuttontest" duration-ms="120" started-at="2020-01-27T05:38:04Z" finished-at="2020-01-27T05:38:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchbuttontest -->
+        <test-method status="PASS" signature="searchtest()[pri:0, instance:automation.testexeution.ui.Test_Page_01@75bd9247]" name="searchtest" duration-ms="4955" started-at="2020-01-27T05:38:04Z" finished-at="2020-01-27T05:38:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchtest -->
+      </class> <!-- automation.testexeution.ui.Test_Page_01 -->
+      <class name="automation.testexeution.ui.Test_Page_02">
+        <test-method status="PASS" signature="connect_drivers()[pri:0, instance:automation.testexeution.ui.Test_Page_02@7d417077]" name="connect_drivers" is-config="true" duration-ms="1" started-at="2020-01-27T05:38:09Z" finished-at="2020-01-27T05:38:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connect_drivers -->
+        <test-method status="PASS" signature="clicknewlinktest()[pri:0, instance:automation.testexeution.ui.Test_Page_02@7d417077]" name="clicknewlinktest" duration-ms="1998" started-at="2020-01-27T05:38:09Z" finished-at="2020-01-27T05:38:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicknewlinktest -->
+        <test-method status="PASS" signature="presenceofallelementstest()[pri:0, instance:automation.testexeution.ui.Test_Page_02@7d417077]" name="presenceofallelementstest" duration-ms="18" started-at="2020-01-27T05:38:11Z" finished-at="2020-01-27T05:38:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- presenceofallelementstest -->
+      </class> <!-- automation.testexeution.ui.Test_Page_02 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
